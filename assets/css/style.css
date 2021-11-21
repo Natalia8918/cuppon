@@ -1,0 +1,71 @@
+body {
+    font-family: "roboto";
+    font-weight: 300;
+}
+
+:root {
+    --success: #28A745;
+    --dark: #212529;
+    --grey: #707070;
+    --light: #F8F9FA;
+    --white: #ffffff;
+}
+
+nav,
+.formulario {
+    background-color: #28A745;
+}
+
+.logo {
+    width: 100px;
+}
+
+.card {
+    margin: 5% auto;
+}
+
+.precioOferta {
+    color:#28A745 ;
+    font-size: 20px;
+}
+
+.nombreEmpresa {
+    margin-bottom: 0;
+}
+
+.fas {
+    font-size: 12px;
+}
+
+.list-group-item:first-child {
+    border-top-width: 0;
+}
+
+.card-body h4 {
+    color: #212529;
+}
+
+.nav-link,
+.formulario {
+    color: #ffffff;
+}
+
+.form-control-lg {
+    border-radius: 0.5rem;
+}
+
+.navbar-toggler {
+    border-color: #F8F9FA;
+}
+
+.fa-bars {
+    font-size: 40px;
+    color: #F8F9FA;
+}
+
+.fas,
+.direccion,
+.precioNormal,
+footer {
+    color: #707070;
+}
